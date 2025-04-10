@@ -17,17 +17,6 @@
     "minutesRead": {
       "type": "integer"
     },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "description": {
       "type": "text"
     },
@@ -36,6 +25,9 @@
     },
     "categories": {
       "type": "json"
+    },
+    "imageUrl": {
+      "type": "string"
     }
   }
 }
